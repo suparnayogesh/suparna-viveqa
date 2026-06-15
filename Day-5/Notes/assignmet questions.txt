@@ -1,0 +1,2 @@
+Design a counter with T flipflops whose count sequence is 0,2,4,5,3,1,0….
+Design a 3 bit up/down counter using negative edge triggered T-FF
