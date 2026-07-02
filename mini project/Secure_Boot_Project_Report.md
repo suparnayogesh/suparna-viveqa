@@ -47,7 +47,7 @@ The ESP32-C3 plays the role of an untrusted "firmware delivery" channel — anal
 | FPGA | Xilinx XC7A35T-FTG256-1 (Artix-7) | Runs the verifier logic and SHA-256 core |
 | Co-processor | ESP32-C3-MINI-1 | Sends the firmware image over UART |
 | Display | 16×2 character LCD (DS1WC1602A) | Shows live status text |
-| LEDs | 2 of the 16 onboard user LEDs | PASS / FAIL / BUSY indicators |
+| LEDs | 2 of the 8 onboard user LEDs | PASS / FAIL  indicators |
 | Programming | FT232H (USB-JTAG) for FPGA, native USB-CDC for ESP32-C3 | Independent programming paths |
 | Interconnect | 1 jumper wire (PMOD ↔ ESP32 header) | UART signal path between the two chips |
 
